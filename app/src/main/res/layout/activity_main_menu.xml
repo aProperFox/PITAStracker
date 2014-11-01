@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:orientation="vertical"
+    android:background="#3b3b3b">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Add"
+        android:textSize="50dp"
+        android:background="#515151"
+        android:textColor="#b3b3b3"
+        android:onClick="onAdd"
+        android:layout_marginBottom="1sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Review"
+        android:textSize="50dp"
+        android:background="#515151"
+        android:textColor="#b3b3b3"
+        android:onClick="onReview"
+        android:layout_marginTop="1sp"/>
+
+</LinearLayout>
